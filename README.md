@@ -5,20 +5,50 @@
 ## 页面预览
 
 ### 首页
+
+快捷入口、最近上架记录。
+
 ![首页](docs/screenshots/home.png)
 
-### 上架流程（5步）
+### Step 1 - 采集商品
 
-| 步骤 | 页面 | 功能 | 预览 |
-|------|------|------|------|
-| Step 1 | `/upload` | 采集商品：输入链接采集、关联数据源、关联模板 | ![Step1](docs/screenshots/step1.png) |
-| Step 2 | `/upload/step2` | 选择类目：三级类目选择器 | ![Step2](docs/screenshots/step2.png) |
-| Step 3 | `/upload/step3` | 确认字段：必填标记、图片上传到千牛素材库 | ![Step3](docs/screenshots/step3.png) |
-| Step 4 | `/upload/step4` | 编辑SKU：价格策略、库存设置 | ![Step4](docs/screenshots/step4.png) |
-| Step 5 | `/upload/step5` | 提交上架：上架检查、上架方式选择 | ![Step5](docs/screenshots/step5.png) |
+输入淘宝链接一键采集，预览 SKU、参数、图片，关联数据源和模板。
+
+![采集商品](docs/screenshots/step1.png)
+
+![采集商品-预览](docs/screenshots/step1_1.png)
+
+### Step 2 - 选择类目
+
+三级类目选择器，选择天猫发布类目。
+
+![选择类目](docs/screenshots/step2.png)
+
+### Step 3 - 确认字段
+
+根据淘宝 schema 标记必填项，上传图片到千牛素材库。
+
+![确认字段](docs/screenshots/step3.png)
+
+![确认字段-素材库](docs/screenshots/step3_1.png)
+
+### Step 4 - 编辑SKU
+
+设置价格策略（固定值/上调10%/抹零等），配置库存。
+
+![编辑SKU](docs/screenshots/step4.png)
+
+### Step 5 - 提交上架
+
+上架前检查，选择上架方式（立刻/定时/仓库）。
+
+![提交上架](docs/screenshots/step5.png)
 
 ### 设置页面
-![设置](docs/screenshots/settings.png)
+
+店铺授权、数据源配置、类目模板管理。
+
+![设置](docs/screenshots/seting.png)
 
 ---
 
@@ -50,26 +80,13 @@ product_uploader/
 
 ## 核心功能
 
-### Step 1 - 采集商品
-- 输入淘宝链接一键采集
-- 预览：SKU规格、参数信息、主图/视频、商详图片
-- 关联数据源：匹配商家编码、有机编码等
-- 关联模板：预填发货地、物流模板等
-
-### Step 3 - 确认字段
-- 根据淘宝 schema 标记必填项（红色 *）
-- 树形目录选择器：上传图片到千牛素材库
-- 一键上传所有图片
-
-### Step 4 - 编辑SKU
-- 定价方式：固定值 / 价格策略
-- 内置策略：上调10%/20%/30%、下调10%、整数抹零.9
-- 实时显示价格变动百分比
-
-### Step 5 - 提交上架
-- 上架前检查清单
-- 商品预览
-- 上架方式：立刻上架 / 定时上架 / 放入仓库
+| 步骤 | 页面 | 功能 |
+|------|------|------|
+| Step 1 | `/upload` | 采集商品：输入链接采集、关联数据源、关联模板 |
+| Step 2 | `/upload/step2` | 选择类目：三级类目选择器 |
+| Step 3 | `/upload/step3` | 确认字段：必填标记、图片上传到千牛素材库 |
+| Step 4 | `/upload/step4` | 编辑SKU：价格策略、库存设置 |
+| Step 5 | `/upload/step5` | 提交上架：上架检查、上架方式选择 |
 
 ### 其他页面
 
