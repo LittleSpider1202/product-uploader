@@ -106,11 +106,10 @@ npm run dev
 
 访问 http://localhost:3000
 
-### 后端（CLI）
+### 后端
 
 ```bash
 pip install -r requirements.txt
-playwright install chromium
 python src/main.py
 ```
 
@@ -125,8 +124,11 @@ python src/main.py
 
 **后端**
 - Python 3.10+
-- Playwright (浏览器自动化)
-- Rich (CLI UI)
+- FastAPI (API 服务)
+- 淘宝开放平台 API
+
+**浏览器插件**
+- 商品采集插件（Chrome Extension）
 
 ## 开发文档
 

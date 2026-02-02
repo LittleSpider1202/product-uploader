@@ -1,7 +1,11 @@
 # Product Uploader - 依赖列表
 
-# 浏览器自动化
-playwright>=1.40.0
+# Web 框架
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# HTTP 客户端
+httpx>=0.24.0
 
 # 开发依赖
 pytest>=7.0.0
