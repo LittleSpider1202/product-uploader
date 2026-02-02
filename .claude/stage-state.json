@@ -1,0 +1,88 @@
+{
+  "currentStage": "develop",
+  "version": 4,
+  "planMode": false,
+  "history": [
+    {
+      "stage": "requirement",
+      "version": 1,
+      "status": "passed",
+      "timestamp": "2026-01-29T00:00:00.000Z"
+    },
+    {
+      "stage": "design",
+      "version": 1,
+      "status": "in_progress",
+      "timestamp": "2026-01-29T00:00:00.000Z"
+    },
+    {
+      "stage": "requirement",
+      "version": 2,
+      "status": "passed",
+      "timestamp": "2026-01-29T00:00:00.000Z",
+      "reason": "MRD文档修正：删除技术实现细节，回归用户视角"
+    },
+    {
+      "stage": "design",
+      "version": 2,
+      "status": "passed",
+      "timestamp": "2026-01-29T00:00:00.000Z"
+    },
+    {
+      "stage": "develop",
+      "version": 1,
+      "status": "paused",
+      "timestamp": "2026-01-29T00:00:00.000Z"
+    },
+    {
+      "stage": "design",
+      "version": 3,
+      "status": "passed",
+      "timestamp": "2026-01-30T00:00:00.000Z",
+      "reason": "补充 codegen 交互设计 + 学习驱动初始化设计"
+    },
+    {
+      "stage": "develop",
+      "version": 2,
+      "status": "paused",
+      "timestamp": "2026-01-30T00:00:00.000Z"
+    },
+    {
+      "stage": "requirement",
+      "version": 3,
+      "status": "skipped",
+      "timestamp": "2026-01-30T00:00:00.000Z",
+      "reason": "PRD规范变更（误操作，直接回退到设计阶段）"
+    },
+    {
+      "stage": "design",
+      "version": 4,
+      "status": "passed",
+      "timestamp": "2026-01-30T00:00:00.000Z",
+      "reason": "PRD 规范变更：新增概览章节 + 动态加载规则"
+    },
+    {
+      "stage": "develop",
+      "version": 3,
+      "status": "paused",
+      "timestamp": "2026-01-31T00:00:00.000Z",
+      "reason": "回退到设计阶段调整交互设计"
+    },
+    {
+      "stage": "design",
+      "version": 5,
+      "status": "passed",
+      "timestamp": "2026-02-01T00:00:00.000Z",
+      "reason": "PRD v3：字段清单、外部数据源、类目模板、首次引导流程、完整交互设计"
+    },
+    {
+      "stage": "develop",
+      "version": 4,
+      "status": "in_progress",
+      "timestamp": "2026-02-01T00:00:00.000Z"
+    }
+  ],
+  "constraints": [
+    "MRD文档必须聚焦用户视角，禁止包含技术实现细节"
+  ]
+}

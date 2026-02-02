@@ -1,0 +1,56 @@
+ç»ˆç«¯ä»£ç†å·²å¼€å¯
+[?2004h[0;32mhuzhe[0m@[34;1mhz[0m:[0;33m/d/ai[0m[0;32m $ [0mcd ecom_tools/
+[?2004l/d/ai/ecom_tools
+[?2004h[0;32mhuzhe[0m@[34;1mhz[0m:[0;33m/d/ai/ecom_tools[0m[0;32m $ [0mls
+[?2004lproduct_uploader
+README.md
+[?2004h[0;32mhuzhe[0m@[34;1mhz[0m:[0;33m/d/ai/ecom_tools[0m[0;32m $ [0mcd product_uploader/
+[?2004l/d/ai/ecom_tools/product_uploader
+[?2004h[0;32mhuzhe[0m@[34;1mhz[0m:[0;33m.../ecom_tools/product_uploader[0m[0;32m $ [0mls
+[?2004lCLAUDE.md
+data
+logs
+output.txt
+pyproject.toml
+requirements.txt
+src
+tests
+user_data
+[?2004h[0;32mhuzhe[0m@[34;1mhz[0m:[0;33m.../ecom_tools/product_uploader[0m[0;32m $ [0mnote [Kpad output.txt 
+[?2004l[?2004h[0;32mhuzhe[0m@[34;1mhz[0m:[0;33m.../ecom_tools/product_uploader[0m[0;32m $ [0m cd /d/ai/ecom_tools/product_uploader && python src/main.py 2>&1 cd /d/ai/ecom_tools/product_uploader && python src/main.py 2>&1
+[?2004lç»ˆç«¯ä»£ç†å·²å¼€å¯
+[?2004h[0;32mhuzhe[0m@[34;1mhz[0m:[0;33m/d/ai[0m[0;32m $ [0mcd[K[K[?5h[?5lwinpty python src/main.py^C[?2004l[?2004h[?2004l
+[?2004h[0;32mhuzhe[0m@[34;1mhz[0m:[0;33m/d/ai[0m[0;32m $ [0mcd ecom_tools/product_uploader/
+[?2004l/d/ai/ecom_tools/product_uploader
+[?2004h[0;32mhuzhe[0m@[34;1mhz[0m:[0;33m.../ecom_tools/product_uploader[0m[0;32m $ [0mwinpty python src/main.py
+[?2004lstdout is not a tty
+[?2004h[0;32mhuzhe[0m@[34;1mhz[0m:[0;33m.../ecom_tools/product_uploader[0m[0;32m $ [0mpython src/main.py
+[?2004lç»ˆç«¯ä»£ç†å·²å¼€å¯
+[?2004h[0;32mhuzhe[0m@[34;1mhz[0m:[0;33m/d/ai[0m[0;32m $ [0mpython -c "import sys; print('è¾“å…¥:'); x = sys.stdin.readline(); print(f'ç»“æœ: [{x}]')"
+[?2004lÊäÈë:
+½á¹û: [123
+]
+[?2004h[0;32mhuzhe[0m@[34;1mhz[0m:[0;33m/d/ai[0m[0;32m $ [0mpython src/main.py
+[?2004lC:\Users\huzhe\AppData\Local\Python\pythoncore-3.14-64\python.exe: can't open file 'D:\\ai\\src\\main.py': [Errno 2] No such file or directory
+[?2004h[0;32mhuzhe[0m@[34;1mhz[0m:[0;33m/d/ai[0m[0;32m $ [0mc [Kd ecom_tools//product_uploader/
+[?2004l/d/ai/ecom_tools/product_uploader
+[?2004h[0;32mhuzhe[0m@[34;1mhz[0m:[0;33m.../ecom_tools/product_uploader[0m[0;32m $ [0mpython src/main.py
+[?2004l[2m13:49:18[0m | [32mINFO    [0m | [unknown:uploader][0m | ³ÌĞòÆô¶¯ run_id=20260130_134918_bbd91b94
+[2J[H
+[96m==================================================[0m
+[1m  ÌÔ±¦ÉÌÆ·Ò»¼üÉÏ¼Ü¹¤¾ß[0m
+[96m==================================================[0m
+
+  °æ±¾: 0.1.0
+  ÔËĞĞID: 20260130_134918_bbd91b94
+
+[93m[!] ÖªÊ¶¿âÎª¿Õ£¬½¨ÒéÏÈ½øĞĞ¡¸Ñ§Ï°Ä£Ê½¡¹³õÊ¼»¯[0m
+
+  [96m1[0m. ²É¼¯ÉÌÆ· - ´ÓÌÔ±¦¸´ÖÆÉÌÆ·ĞÅÏ¢
+  [96m2[0m. ÉÏ¼ÜÉÌÆ· - ½«ÉÌÆ··¢²¼µ½µêÆÌ
+  [96m3[0m. Ñ§Ï°Ä£Ê½ - Â¼ÖÆ²Ù×÷·½°¸
+  [96m4[0m. ÖªÊ¶¿â   - ¹ÜÀíÎÊÌâºÍ·½°¸
+  [96m5[0m. ÉèÖÃ
+  [96m6[0m. ÍË³ö
+
+[96mÇëÑ¡Ôñ²Ù×÷ [1-6]: [0m^C^C^C

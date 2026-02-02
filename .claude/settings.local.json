@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c:*)",
+      "Bash(taskkill:*)",
+      "Bash(pkill:*)",
+      "WebFetch(domain:developer.alibaba.com)",
+      "WebFetch(domain:open.taobao.com)",
+      "Bash(npx shadcn@latest init -y -d)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(npm install)",
+      "Bash(npm run dev)",
+      "Bash(gh repo view:*)",
+      "Bash(gh auth status:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
