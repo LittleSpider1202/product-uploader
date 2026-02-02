@@ -101,7 +101,7 @@ export default function UploadStep1() {
   const [expandedSections, setExpandedSections] = useState({
     skus: true,
     params: true,
-    detailImages: false,
+    detailImages: true,
   });
 
   const handleCollect = () => {
@@ -385,9 +385,9 @@ export default function UploadStep1() {
                       {collectedProduct.detailImages.map((img, idx) => (
                         <div
                           key={idx}
-                          className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-xs"
+                          className="w-16 h-20 bg-gray-100 rounded-lg flex items-center justify-center text-gray-400 text-xs border border-gray-200"
                         >
-                          {idx + 1}
+                          详情{idx + 1}
                         </div>
                       ))}
                     </div>
